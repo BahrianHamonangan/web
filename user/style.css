@@ -1,0 +1,23 @@
+* {
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: rgb(192, 240, 255);
+  width: 260px;
+  padding: 24px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main {
+  background-color: beige;
+  flex-grow: 1;
+}
